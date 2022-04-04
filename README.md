@@ -12,7 +12,7 @@ The district analysis summary was not affected by the update to the 9th grade te
 ![Original district summary](https://github.com/courtneysims/School_District_Analysis/blob/877f300fcf408f04df29fe6022a92b339534aeee/Resource/district_summary_original.png)
 ![Updated district summary (NaNs)](https://github.com/courtneysims/School_District_Analysis/blob/b21b88522213e05f0785baece301c7e6dba0dee8/Resource/district_summary_update.png)
 
-The changes of replacing the grades with "NaNs" for 9th grade at Thomas High School also did not affect the ranking of the top performing schools which ranked Thomas High School in the top five.
+The changes replacing the grades with "NaNs" for 9th grade at Thomas High School also did not affect the ranking of the top performing schools which ranked Thomas High School in the top five.
 ![Top Rank Original](https://github.com/courtneysims/School_District_Analysis/blob/b21b88522213e05f0785baece301c7e6dba0dee8/Resource/top_schools_original.png) ![Top rank Update](https://github.com/courtneysims/School_District_Analysis/blob/962ee5821b12b0a0069594864e4c80e40a854c3c/Resource/top_schools_update.png)
 
 The only scores impacted by the change is the dataframe displaying test scores by grade which lists "NaNs" for 9th grade at Thomas High School. Calculating an average of the math and reading scores with the update would return a noticeable change because a whole grade's data is not represented by the omission. For the overall school performance in math and reading,  passing percentages for reading and math scores for all grades show a small change in this metric, less than 0.5%. Compared to other school performances in test scores, the replaced 9th grade test scores do not affect Thomas High School in math and reading.
